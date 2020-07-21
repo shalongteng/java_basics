@@ -1,4 +1,4 @@
-package com.slt.java_basics.designPatterns.proxy.dynamicroxy.jdk;
+package com.slt.java_basics.designPatterns.proxy.dynamicroxy.jdk.jdk1;
 
 import com.slt.java_basics.designPatterns.proxy.staticProxy.IUserDao;
 import com.slt.java_basics.designPatterns.proxy.staticProxy.UserDao;
@@ -20,6 +20,7 @@ public class App {
         System.out.println(proxy.getClass());
 
         // 执行方法   【代理对象】
-        proxy.save();
+        proxy.save("123");
+        proxy.save2();
     }
 }

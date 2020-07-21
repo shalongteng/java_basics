@@ -5,5 +5,6 @@ package com.slt.java_basics.designPatterns.proxy.staticProxy;
  */
 public interface IUserDao {
 
-    void save();
+    void save(String name);
+    void save2();
 }

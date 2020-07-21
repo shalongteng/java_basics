@@ -11,9 +11,14 @@ public class UserDaoProxy implements IUserDao{
     }
 
     @Override
-    public void save() {
+    public void save(String name) {
         System.out.println("开始事务...");
-        target.save();//执行目标对象的方法
+        target.save(name);//执行目标对象的方法
         System.out.println("提交事务...");
+    }
+
+    @Override
+    public void save2() {
+
     }
 }
