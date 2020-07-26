@@ -1,8 +1,36 @@
-1 asm
+1 asm是assembly的缩写，是汇编的称号，对于java而言，asm就是字节码级别的编程。
+      ObjectWeb ASM是轻量级的Java字节码处理框架。它可以动态生成二进制格式的stub类或其他代理类，
+            或者在类被JAVA虚拟机装入内存之前，动态修改类。
+      ASM 提供了与 BCEL和SERP相似的功能，22K，比起350K的BCEL和150K的SERP来说，小很多，它有更高的执行效率，
+            是BCEL 的7倍，SERP的11倍以上。
+
+  ObjectWeb ASM具有如下几个非常诱人的特点
+      * 小巧、高效
+      * 源代码实现非常简洁而又优雅，简直就是Gof的《设计模式》非常棒的实现
+      * 字节码级的控制，能够更高效地实现字节码的控制
+
+   ObjectWeb ASM有2组接口：
+       * 基于事件驱动的接口，类似于xml的SAX接口，visitor模式，在访问到类定义某个部分的时候进行回调，
+             实现上比tree接口高效，占用内存更小
+       * 基于tree的接口，类似于xml的DOM接口，将类定义解析成tree
+
+https://zhuanlan.zhihu.com/p/94498015?utm_source=wechat_timeline
+
 2 instrument
+   可以在java类load 到内存时候拦截住，修改字节码。
+   https://www.jianshu.com/p/5c62b71fd882
+
+  java.lang.instrument包的最大功能就是可以在已有的类上附加（修改）字节码来实现增强的逻辑，
+  如果良性使用当然不会影响程序的正常行为，如果恶性使用就可能产生一些负面的影响
+  （如IntelliJ IDEA的License的破解都可以基于Instrumentation的功能实现，前提是找到程序认证License的入口）。
 
 
-动态语言：在运行时候，直接改变类的属性和方法，动态添加，动态删除。
 
 
-spring bean 工厂 灵活装配+ 动态拼接 成就spring的地位
+3、动态语言：
+    在运行时候，直接改变类的属性和方法，动态添加，动态删除。
+
+
+4、spring bean工厂 灵活装配+ 动态拼接 成就spring的地位
+
+
