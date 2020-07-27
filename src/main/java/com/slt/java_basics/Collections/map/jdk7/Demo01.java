@@ -11,7 +11,7 @@ import java.util.Map;
 public class Demo01 {
     public static void main(String[] args) {
         System.out.println(00);
-//        Map map = new HashMap(16);
+        Map map = new HashMap(16);
     }
 
     /**
