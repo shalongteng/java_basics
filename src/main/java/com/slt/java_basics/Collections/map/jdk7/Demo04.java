@@ -11,6 +11,7 @@ public class Demo04 {
     /**
      * 1、LinkedHashMap可以认为是HashMap + LinkedList，
      *  即它既使用HashMap操作数据结构，又使用LinkedList维护插入元素的先后顺序
+     * 2、LinkedHashMap的基本实现思想就是----多态。
      * @param args
      */
     public static void main(String[] args) {
@@ -20,5 +21,9 @@ public class Demo04 {
          *
          */
     }
+
+    /**
+     * 利用LinkedHashMap实现LRU算法缓存
+     */
 }
 
