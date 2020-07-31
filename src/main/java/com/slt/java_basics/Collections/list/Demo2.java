@@ -9,8 +9,7 @@ import java.util.List;
 /**
  * https://blog.csdn.net/panweiwei1994/article/details/77110354
  *
- * list接口
- *  LinkedList 底层是链表实现 读慢改快
+ *  LinkedList 底层使用的是双向链表  读慢改快
  *  默认容量10
  */
 public class Demo2 {

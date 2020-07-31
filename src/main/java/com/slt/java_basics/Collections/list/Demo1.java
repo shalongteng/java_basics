@@ -5,7 +5,6 @@ import org.junit.Test;
 import java.util.Arrays;
 
 /**
- * list接口
  *  ArrayList 底层是数组实现 读快改慢
  *  默认容量10
  */

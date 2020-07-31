@@ -6,11 +6,8 @@ import java.util.Collection;
 /**
  * 容器接口
  *  collection
- *      list 可重复  ArrayList linkedlist
- *
- *      set  不可重复 HashSet
- *  map
- *      hashmap
+ *      list 可重复  ArrayList linkedlist CopyOnWriteArrayList
+ *      set  不可重复 HashSet TreeSet
  */
 public class Demo01 {
     /**
