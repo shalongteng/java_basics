@@ -1,4 +1,4 @@
-package com.slt.java_basics.Collections.map.jdk7;
+package com.slt.java_basics.collections.map.jdk7;
 
 import java.util.LinkedHashMap;
 

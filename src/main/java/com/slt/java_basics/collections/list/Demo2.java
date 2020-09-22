@@ -1,10 +1,6 @@
-package com.slt.java_basics.Collections.list;
+package com.slt.java_basics.collections.list;
 
-import org.junit.Test;
-
-import java.util.Arrays;
 import java.util.LinkedList;
-import java.util.List;
 
 /**
  * https://blog.csdn.net/panweiwei1994/article/details/77110354

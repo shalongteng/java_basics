@@ -1,4 +1,4 @@
-package com.slt.java_basics.Collections.set;
+package com.slt.java_basics.collections.set;
 
 /**
  * set

@@ -1,4 +1,4 @@
-package com.slt.java_basics.Collections.map.tree;
+package com.slt.java_basics.collections.map.tree;
 
 /**
  * 平衡二叉树之红黑树

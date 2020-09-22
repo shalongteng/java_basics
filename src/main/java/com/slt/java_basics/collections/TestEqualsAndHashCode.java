@@ -1,7 +1,6 @@
-package com.slt.java_basics.Collections;
+package com.slt.java_basics.collections;
 
 import java.util.HashMap;
-import java.util.Map;
 
 /**
  * 为什么重写equals()方法要重写hashCode()方法

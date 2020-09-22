@@ -1,4 +1,4 @@
-package com.slt.java_basics.Collections.map.jdk8;
+package com.slt.java_basics.collections.map.jdk8;
 
 /**
  * jdk8 hashmap 数组+链表+红黑树

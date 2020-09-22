@@ -1,9 +1,6 @@
-package com.slt.java_basics.Collections.map.jdk7;
+package com.slt.java_basics.collections.map.jdk7;
 
 import org.junit.Test;
-
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * 多线程下[HashMap]的问题

@@ -1,7 +1,6 @@
-package com.slt.java_basics.Collections.collection;
+package com.slt.java_basics.collections.collection;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 

@@ -1,4 +1,4 @@
-package com.slt.java_basics.Collections.map.tree;
+package com.slt.java_basics.collections.map.tree;
 
 import java.util.Comparator;
 import java.util.TreeMap;

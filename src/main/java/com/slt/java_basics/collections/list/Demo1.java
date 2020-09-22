@@ -1,4 +1,4 @@
-package com.slt.java_basics.Collections.list;
+package com.slt.java_basics.collections.list;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.slt.java_basics.Collections.util;
+package com.slt.java_basics.collections.util;
 
 import java.util.Arrays;
 import java.util.List;
