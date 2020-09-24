@@ -4,10 +4,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.BiFunction;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.IntConsumer;
+import java.util.function.*;
 import java.util.stream.IntStream;
 
 /**
@@ -91,13 +88,16 @@ public class T02_lambda {
         Arrays.stream(arr).forEach(System.out::println);
     }
 
+    /**
+     * 创建了一个函数,用来计算 两个数字相加的结果
+     * lambda 返回一个 函数式接口
+     */
     @Test
-    public void test4() {
-        int[] arr = {1, 3, 4, 5, 6, 7, 8, 9, 10};
-        IntConsumer outprintln = System.out::println;
-        IntConsumer errprintln = System.out::println;
+    public void testLambda() {
+        BinaryOperator<Integer> add = (x, y) -> x + y;
+        Integer apply = add.apply(2, 3);
+        System.out.println(apply);
 
-        Arrays.stream(arr).forEach(outprintln.andThen(errprintln));
     }
 
 
